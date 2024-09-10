@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tests de vista About Test1 - Matchea el snapshot de la vista About Correctamente 1`] = `
+<div class="about">
+  <h1>Este es "about"</h1>
+</div>
+`;
+
+exports[`Tests de vista Contact Test1 - Matchea el snapshot de la vista Contact Correctamente 1`] = `
+<div class="contact">
+  <h1>Este es "contacto"</h1>
+</div>
+`;

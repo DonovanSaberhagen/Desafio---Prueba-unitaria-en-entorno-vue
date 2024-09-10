@@ -1,5 +1,5 @@
 <template>
   <div class="contact">
-    <h1>Página "contacto"</h1>
+    <h1>Este es "contacto"</h1>
   </div>
 </template>
