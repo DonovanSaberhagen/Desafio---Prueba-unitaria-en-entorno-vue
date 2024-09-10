@@ -7,24 +7,31 @@
 
 - Descripción
 
-En este desafío crearemos un pequeño administrador de citas médicas.
-Los labels del formulario deberán estar de color rojo mientras que su input correspondiente esté vacío, de lo contrario deberán retornar su color natural.
+Aplicando los conceptos y herramientas aprendidas hasta ahora en la implementación de
+pruebas unitarias en una aplicación web con Vue JS, deberán utilizar el apoyo del desafío que
+se comparte en la plataforma. Este apoyo contiene una aplicación desarrollada en la “Guía de
+ejercicios - Pruebas Unitarias en un entorno Vue”.
+Consta de una aplicación sencilla, en la cual se implementan pruebas sobre una ruta definida
+como posts, en esta ocasión, debemos seguir escalando esta aplicación e incorporar nuevas
+rutas y además aplicar snapshots para validar la estructura HTML.
 
 
   ---
 
 ## Requerimientos
 
-1. Utilizar los eventos y las modificadores para agregar interacciones en la aplicación.
-   
-2. Reutilizar componentes para el ahorro de tiempo en el desarrollo de una aplicación.
+1. Dentro de la aplicación entregada como apoyo, define las rutas:
+a. About
+b. Contact
 
-3. Hacer uso de las props para el paso de datos a componentes hijos.
+2. En el directorio de /tests/unit/views, incorpora los nuevos tests para las vistas antes
+mencionadas. Recuerda que al definir una nueva ruta se debe generar su componente.
 
-4. Cambiar los estilos de elementos a partir de eventos emitidos por el usuario.
+3. Genera una prueba que permita crear un snapshot de la estructura HTML del
+componente HomeView.vue.
 
-5. Comunicar componentes hijos con su padre a través de la emisión de eventos.
-
+4. Genera una prueba que permita crear un snapshot de la estructura HTML del
+componente About.vue.
 
 
 
@@ -34,27 +41,24 @@ Los labels del formulario deberán estar de color rojo mientras que su input cor
 
 ## Pasos
 
-1. Se Utilizan eventos y modificadores para agregar interacciones en la aplicación.
+1. Se define las rutas establecidas en la pauta
 
-![Imagen](./src/assets/cita.png)
+![Imagen](./src/assets/rutas.png)
 
 
 
-2. Se Reutilizan componentes para mayor rendimiento en la aplicacion.
+2. En el directorio de /tests/unit/views, incorpora los nuevos tests.
 
-![Imagen](./src/assets/componente.png)
+![Imagen](./src/assets/Captura%20de%20pantalla%202024-09-10%20102026.png)
 
-3. Hacemos uso de las props para el paso de datos a componentes hijos
+3. Generamos una prueba que permita crear un snapshot de la estructura HTML
 
-![Imagen](./src/assets/props.png)
 
-4. Cambiamos los estilos de elementos a partir de eventos emitidos por el usuario.
 
-![Imagen](./src/assets/estilos.png)
+4. Generamos una prueba que permita crear un snapshot de la estructura HTML del
+componente About.vue.
 
-5. Comunicamos componentes hijos con su padre a través de la emisión de eventos.
 
-![Imagen](./src/assets/methots.png)
 
 
 
@@ -65,4 +69,4 @@ Los labels del formulario deberán estar de color rojo mientras que su input cor
 
 ## Resultado
 
-![Imagen](./src/assets/resultado.png)
+![Imagen](./src/assets/test.png)
